@@ -1,0 +1,30 @@
+### CREATE TASK
+
+POST http://localhost:3000/api/task
+Content-Type: application/json
+
+{
+    "title": "test title"
+}
+
+### TASKS LIST
+
+GET http://localhost:3000/api/task
+
+### DELETE TASK
+
+DELETE http://localhost:3000/api/task
+Content-Type: application/json
+
+{
+    "id": 1
+}
+
+### TOGGLE TASK
+
+PATCH  http://localhost:3000/api/task
+Content-Type: application/json
+
+{
+    "id": 3
+}
